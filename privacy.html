@@ -40,13 +40,18 @@
       <tr><td>Pushtoken</td><td>Meldingen</td><td>Optioneel</td><td>Tot verwijdering of een ongeldig token</td></tr>
       <tr><td>Of Premium actief is</td><td>Abonnement via RevenueCat en Google Play</td><td>Optioneel</td><td>In onze database tot accountverwijdering. Play en RevenueCat hebben een eigen administratie</td></tr>
       <tr><td>Tekst aan de AI-assistent</td><td>Antwoord. Alleen bij Premium en alleen als de OpenAI-sleutel aan staat</td><td>Optioneel. Uit onder 16</td><td>SafeWalk slaat het gesprek niet op. OpenAI ontvangt de tekst wel</td></tr>
+      <tr><td>Ouder-kindkoppeling (accounts, toestemmingstijdstip en -versie, SOS-contacten, zones thuis/school)</td><td>Kindermodus voor 13–15 jaar</td><td>Toestemming van een ouder of voogd in een eigen account van 16+. Geen identiteitscontrole</td><td>Tot de koppeling of het account wordt verwijderd</td></tr>
+      <tr><td>Locatie van een gekoppeld kind tijdens kindermodus</td><td>Ouder ziet live of laatst bekende locatie, batterij en verbroken verbinding; meldingen bij zones en lege batterij</td><td>Alleen na oudertoestemming, zichtbaar voor het kind</td><td>Zelfde termijn als reispunten</td></tr>
       <tr><td>Misbruikmelding, auditregel, foutmelding</td><td>Misbruik en storingen</td><td>Alleen als die situatie zich voordoet</td><td>Maximaal 12 maanden, eerder bij accountverwijdering als de regel aan dat account hangt</td></tr>
     </tbody>
   </table>
   <p>Wij verkopen geen gegevens en tonen geen advertenties.</p>
   <p>Noodinfo (medische notities en ICE-contacten) blijft optioneel alleen op dit toestel en gaat niet naar SafeWalk.</p>
-  <p>Als jij plekken in de buurt zoekt, gaat je huidige locatie naar de publieke Overpass API van OpenStreetMap. SafeWalk slaat die zoekopdracht niet op.</p>
-  <p>Een sms als reserve opent alleen je berichten-app. Jij tikt zelf op versturen. SafeWalk verstuurt geen sms.</p>
+  <p>Als jij plekken in de buurt zoekt, gaat je huidige locatie naar de publieke Overpass API van OpenStreetMap. SafeWalk slaat die zoekopdracht niet op de server op. De laatste lijst kan op jouw toestel bewaard blijven (maximaal 24 uur).</p>
+  <p>Locatiepunten en een SOS zonder internet blijven in een wachtrij op jouw toestel en gaan opnieuw zodra er verbinding is. Zonder enig netwerkbereik (ook geen sms) kan niets verstuurd worden.</p>
+  <p>Een sms als reserve opent alleen je berichten-app. Jij tikt zelf op versturen. Automatische sms is niet mogelijk (Play en iPhone). SafeWalk verstuurt geen sms.</p>
+  <p>Valdetectie staat uit tot jij het aanzet. De bewegingssensor wordt alleen op je telefoon gelezen, terwijl de app open is.</p>
+  <p>Kindermodus: een ouder of voogd van 16+ geeft toestemming in de eigen app en koppelt een kind van 13–15. SafeWalk controleert niet of die persoon echt de ouder is. Het kind ziet altijd met wie de locatie wordt gedeeld en kan SOS niet uitzetten. Geen “Altijd”-achtergrondlocatie.</p>
   <p>Een meekijklink voor een reis toont aan iedereen die de link heeft: de bestemmingsnaam die jij invulde, de verwachte aankomsttijd, de check-in-status, je batterijpercentage en laatst-online-tijd, en je locatie zolang de reis loopt, plus ritgegevens als jij die hebt ingevuld. Na aankomst of stoppen toont de link alleen nog dat de reis klaar is, tot hij verloopt (uiterlijk 24 uur). Je kunt hem altijd intrekken.</p>
   <p>De nep-oproep werkt helemaal op je telefoon; er gaan geen gegevens naar SafeWalk of naar anderen. Na je derde veilige aankomst kan de app één keer het beoordelingsvenster van Google Play of de App Store tonen. SafeWalk ziet niet of en wat je beoordeelt.</p>
 
@@ -64,7 +69,7 @@
   <p>Contracten met partijen buiten de EER zijn in deze tekst niet als afgesloten aangetoond.</p>
 
   <h2>4. Leeftijd</h2>
-  <p>Minimum 13 jaar. Jonger dan 13 wordt geweigerd. Van 13 tot en met 15 jaar blijven locatie delen, contacten, opnames, aankopen en de AI-assistent uit. Ouderlijke machtiging is in deze versie niet ingebouwd. Een vinkje, e-mail of code van het kind geldt niet als ouder. Vanaf 16 jaar, gerekend met geboortejaar en -maand, zijn die functies beschikbaar. De opgave is geen identiteitscontrole.</p>
+  <p>Minimum 13 jaar. Jonger dan 13 wordt geweigerd. Van 13 tot en met 15 jaar blijven opnames, aankopen, eigen contactenbeheer en de AI-assistent uit. Locatie en SOS kunnen alleen via kindermodus, nadat een ouder of voogd in een eigen account van 16+ toestemming geeft en jullie koppelen. Een vinkje, e-mail of code van het kind geldt niet als ouder. SafeWalk controleert niet of iemand echt de ouder is. De opgave van geboortejaar en -maand is geen identiteitscontrole. Vanaf 16 jaar, gerekend met jaar en maand, zijn de overige functies beschikbaar.</p>
 
   <h2>5. Rechten</h2>
   <p>Je kunt inzage, correctie, verwijdering, beperking, overdraagbaarheid en bezwaar vragen. Verwijderen in de app: Instellingen, Account verwijderen. Zonder app: <a href="account-verwijderen.html">account verwijderen</a>. Klacht: Autoriteit Persoonsgegevens, autoriteitpersoonsgegevens.nl.</p>
